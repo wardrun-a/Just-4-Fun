@@ -1,0 +1,124 @@
+#header {
+  background-color: black;
+  color: #fff;
+}
+
+.na {
+  color: #ffff99 !important;
+}
+
+.na:hover {
+  color: grey !important;
+}
+
+h1#a {
+  visibility: visible;
+  text-align: center;
+}
+
+h1#b {
+  visibility: hidden;
+}
+
+.head-img {
+    width: 40%;
+    margin-top: 22%;
+    margin-left: 7%;
+}
+
+
+#about {
+  padding: 10% 15% 9%;
+  text-align: center;
+  background-color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2.3% 25%;
+}
+
+.ficon {
+  margin: 1.3%;
+  color: #fff;
+}
+
+.ficon:hover {
+  color: #ffff99;
+}
+
+.fi {
+  margin: 1.3%;
+  color: #ffff99;
+}
+
+#foot {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.p {
+  color: #ffff99;
+  font-family: 'Cinzel', serif;
+}
+
+span {
+  color: #ffff99;
+}
+
+.span {
+  color: #FFD523;
+}
+
+@media screen and (max-width: 1250px) {
+  .nav-brand {
+    font-size: 2rem !important;
+  }
+   .nav-link {
+     font-size: 1.7rem !important;
+   }
+  .head-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 17%
+}
+  h1#a {
+    visibility: hidden;
+    position: absolute;
+}
+  h1#b {
+    visibility: visible;
+    text-align: center;
+    padding:22% 0 5% 0%;
+    font-size: 3rem;
+}
+  .p {
+    font-size: 16px;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+ .ficon {
+   margin: 1%;
+ }
+ .fi {
+   margin: 1%;
+ }
+}
