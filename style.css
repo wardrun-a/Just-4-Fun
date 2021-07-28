@@ -45,6 +45,14 @@ p {
   line-height: 1.5;
 }
 
+.submitButton {
+  color: #ffff99;
+}
+
+.submitButton:hover {
+  color: #ffff99;
+}
+
 #footer {
   background-color: black;
   color: #fff;
